@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+  }
+  .general_features{
+    width: 100%;
+    height: 125vh;
+    background: -webkit-linear-gradient(top, #FDF5E6 0%,#F5FFFA 50%,#F5FFFA 51%,#FDF5E6 100%);
+  }
+  .key_features {
+    height: 100%;
+    text-align: center;
+    position: relative;
+    color: grey;
+  }
+  .key_features img{
+    width: 270px;
+    hight: 270px;
+    margin-left: 140px;
+  }
+  .c-site-header {
+    font-size: 140%;
+    font-family: fantasy;
+    text-shadow: gray 0 1px 0;
+  }
+  .key_features p {
+    text-align: center;
+     line-height: 1.9;
+    font-family: montserrat;
+    font-size: 1rem;
+  }
+  .key_features h2 {
+    text-align: center;
+    font-size: 1.4em;
+    text-transform: uppercase;
+    font-family: montserrat;
+    color: grey;
+    text-shadow: black 0.5px 0.5px 0;
+    margin-top: 60px;
+    margin-bottom: 30px;
+  }
+  .video {
+    float: right;
+  }
+  #values {
+    margin-left:40px;
+    word-spacing: 30px;
+    text-transform: uppercase;
+    font-family: montserrat;
+    font-size: 1rem;
+    color: grey;
+    text-shadow: black 0.5px 0.5px 0;
+  }
+  .c-site-footer {
+    height: 6vh;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;  
+  }
+  c-site-footer p {
+    align: "right";
+  }
+  /*I'm sorry for what will happen below*/
+  #text {
+    font-size: 0em;
+  }/* =================
+    WRITE YOUR CSS HERE.
+    Check the ⌄ for help with formatting and validating your code.
+    You must write some CSS to complete this challenge.
+     ===================
+  */
+  html,
+  body {
+    margin: 0;
+    height: 100%;
+  }
+  
+  /* don't edit this */
+  .jest-lite-report__status--pass {
+    background: var(--color-pass);
+  }
+  .jest-lite-report__errors { display:none }
